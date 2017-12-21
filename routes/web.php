@@ -12,9 +12,9 @@
 */
 
 Route::get('cars', function () {
-    return view('welcome');
+    return view('welcome', ['name' => 'Evald', 'age' => '40']);
 });
 
 Route::get('about', function () {
-    return view('welcome');
+    return view('about');
 });
